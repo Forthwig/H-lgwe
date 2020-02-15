@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d852763fac05afa4bad192a692ea1b04, type: 3}
+  m_Name: LenophieVSTh4nx
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+  speakerRight: {fileID: 11400000, guid: d10cefbb2161f8c48861a35b4effaf18, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+    text: 'Bahhhhh .... '
+  - character: {fileID: 11400000, guid: d10cefbb2161f8c48861a35b4effaf18, type: 2}
+    text: 'Hop hop hop, mon jeu est pas encore finis mais ! voici un system de dialogue
+      bien balaise ! '
+  - character: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+    text: "\"Ajouter un \xE9l\xE9ment d'UI (bouton/dropdown/toggle...) qui permet
+      de lancer des dialogues diff\xE9rents\" .... -_-"
+  - character: {fileID: 11400000, guid: d10cefbb2161f8c48861a35b4effaf18, type: 2}
+    text: "Ahh euuuh, y'avais suffisament de bouton sur le menu nan ? '^^ \nPuis c'est
+      plus simple d'appuer sur espace ? "
+  - character: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+    text: 'Hummm je doute ... '
+  - character: {fileID: 11400000, guid: d10cefbb2161f8c48861a35b4effaf18, type: 2}
+    text: "Attention, ce petit lapin est tr\xE8s sensible, il serait dommage qu'il
+      est le coeur bris\xE9 !\nUne bonne note ou son petit coeur se casse !"
+  - character: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+    text: "Okay 5/5 \nPS : Ton dialogue est chanm\xE9 "
