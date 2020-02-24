@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 8669452939128314706}
   - component: {fileID: 8669452939128314707}
   - component: {fileID: 8669452939128314717}
+  - component: {fileID: 1239362702663446003}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -289,3 +290,23 @@ MonoBehaviour:
   controller: {fileID: 8669452939128314707}
   speed: 15
   gravity: -9.18
+  groundCheck: {fileID: 0}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  jumpHeight: 3
+--- !u!114 &1239362702663446003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669452939128314704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ce5759068f9fe41a1b9a247a045fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  transitionTime: 1

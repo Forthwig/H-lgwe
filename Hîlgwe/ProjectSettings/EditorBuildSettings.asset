@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 1468c725f90cab0459b5290c4a283820
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AntiSpoil.unity
     guid: 8f06efa3b6a199042b4659297dda3ae5
+  - enabled: 1
+    path: Assets/Scenes/Interieur.unity
+    guid: ed294b67fc4238e44b1b11c097bb7fa6
   m_configObjects: {}
