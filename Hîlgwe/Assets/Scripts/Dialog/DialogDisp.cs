@@ -27,12 +27,12 @@ public class DialogDisp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if (Input.GetKeyDown("space")){
+       if (Input.GetKeyDown("r")){
        		AdvanceConversation();
        }
     }
 
-    void AdvanceConversation(){
+     public void AdvanceConversation(){
     	if(activeLineIndex< conversation.lines.Length)
     	{
     		Displayline();
@@ -46,7 +46,7 @@ public class DialogDisp : MonoBehaviour
     	}
     }
 
-    void Displayline(){
+    public void Displayline(){
     	Line line = conversation.lines[activeLineIndex];
     	Character character = line.character; 
     	if(speakerUILeft.SpeakerIs(character)){

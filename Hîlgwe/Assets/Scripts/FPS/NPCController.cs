@@ -7,6 +7,8 @@ public class NPCController : MonoBehaviour
 {	
 	public  bool isHit;
 	public  bool isHitLastFrame; 
+	public GameObject Text;
+    public DialogDisp startdialog;
 
     // Start is called before the first frame update
     void Start()
@@ -41,12 +43,19 @@ public class NPCController : MonoBehaviour
     }
 
     private  void OnRayCastEnter(){
-    	//Je fais ce que j'ai a faire == Shader ++ Name en setActive
-    	Debug.Log("1,2,3");
+        
+        startdialog.Displayline();
+
+        //Je fais ce que j'ai a faire == Shader 
+    	Text.GetComponent<MeshRenderer>().enabled = true;
+    	//if (Text != null){
+    	//	Text.transform.LookAt(Camera.main.transform.position);
+    	//}
+    	Debug.Log(gameObject.name.ToString());
     }
 
     private  void OnRayCastExit(){
     	// Je réini tout ce que j'ai start
-    	Debug.Log("3,2,1");
+    	Text.GetComponent<MeshRenderer>().enabled = false;
     }
 }

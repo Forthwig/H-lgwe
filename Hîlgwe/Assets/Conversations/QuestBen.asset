@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d852763fac05afa4bad192a692ea1b04, type: 3}
+  m_Name: QuestBen
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: b8277b9a907ece24199de9bad5ed660d, type: 2}
+  speakerRight: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: b8277b9a907ece24199de9bad5ed660d, type: 2}
+    text: 'zegkj lsdv sldjvb dfv sldfn vpidsfv '
+  - character: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+    text: 'Oula il est chelou lui ... '
+  - character: {fileID: 11400000, guid: b8277b9a907ece24199de9bad5ed660d, type: 2}
+    text: Eh j'comprend aussi ton langage hein ...
+  - character: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+    text: Ah... euhhh bonjour, vous n'auriez pas vu mes lapinous ? ^^'
+  - character: {fileID: 11400000, guid: b8277b9a907ece24199de9bad5ed660d, type: 2}
+    text: 'djzef ieufr n ozefuh n aozefuh '
+  - character: {fileID: 11400000, guid: a06b46354125c7e48b4fad92a683b5c9, type: 2}
+    text: ?????
+  - character: {fileID: 11400000, guid: b8277b9a907ece24199de9bad5ed660d, type: 2}
+    text: "Nan j'blague, il me semble que tes lapinous sont attaqu\xE9s par des m\xE9chant
+      mobs :o \nVa vite les sauver ! "
