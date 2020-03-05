@@ -14,6 +14,15 @@ public class Menu : MonoBehaviour
 		Application.Quit();
 	}
 
+	void Update (){
+        
+         if (Input.GetButton("Exit")){
+         	Cursor.lockState = CursorLockMode.None;
+         	Debug.Log("EHohe");
+            SceneManager.LoadScene(0);
+       }
+    }
+
 
 
 }

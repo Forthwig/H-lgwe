@@ -42,13 +42,13 @@ public class SceneManageer : MonoBehaviour
     {
 
         player = GameObject.FindGameObjectWithTag("Player");
+        Debug.Log("PlayerFind");
         PipeArray = GameObject.FindGameObjectsWithTag("Warp_Pipe"); 
 
         for (int i = 0; i < PipeArray.Length; i++)
         {
             if (PipeArray[i].GetComponent<Pipe>().PipeNumber == currentPipe)
             {
-                Debug.Log("oco");
                 player.transform.position = PipeArray[i].transform.position ; 
             }
            
