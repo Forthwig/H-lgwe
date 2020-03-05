@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Lapinou
   m_EditorClassIdentifier: 
   fullName: Lapinou
-  portrait: {fileID: 21300000, guid: dc9e78b5e427d2d4cb7207a35b9415ef, type: 3}
+  portrait: {fileID: 21300000, guid: 36e574d4c8169a44990683d9ab8f892a, type: 3}

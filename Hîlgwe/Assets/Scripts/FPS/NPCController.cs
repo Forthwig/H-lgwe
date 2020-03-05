@@ -47,7 +47,7 @@ public class NPCController : MonoBehaviour
         
         startdialog.Displayline();
 
-        //Je fais ce que j'ai a faire == Shader 
+        
     	Text.GetComponent<MeshRenderer>().enabled = true;
     	//if (Text != null){
     	//	Text.transform.LookAt(Camera.main.transform.position);

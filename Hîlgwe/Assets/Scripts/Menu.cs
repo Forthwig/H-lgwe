@@ -15,7 +15,6 @@ public class Menu : MonoBehaviour
 	}
 
 	void Update (){
-        
          if (Input.GetButton("Exit")){
          	Cursor.lockState = CursorLockMode.None;
          	Debug.Log("EHohe");
