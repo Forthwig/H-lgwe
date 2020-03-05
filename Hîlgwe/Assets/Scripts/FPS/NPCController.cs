@@ -9,6 +9,7 @@ public class NPCController : MonoBehaviour
 	public  bool isHitLastFrame; 
 	public GameObject Text;
     public DialogDisp startdialog;
+    //le dialogue 
 
     // Start is called before the first frame update
     void Start()

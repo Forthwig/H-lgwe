@@ -63,4 +63,7 @@ public class DialogDisp : MonoBehaviour
     	inactiveSpeakerUI.Hide();
     }
 
+    //methode public set dialog 
+    //Sur mon pc
+
 }
